@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: language-recog
+Version: 0.0.1
+Summary: This package make recognizing the language easyer
+Home-page: https://github.com/Nicheye/get_lang
+Author: Michael Shpilevsky
+Author-email: miduibwqbdhbuqwidwqdqwdxq@gmail.com
+Project-URL: Bug Tracker, package issues url
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+This package make recognizing the language easyer,I recomend it to use with googletrans

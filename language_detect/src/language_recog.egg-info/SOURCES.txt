@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/language_recog.egg-info/PKG-INFO
+src/language_recog.egg-info/SOURCES.txt
+src/language_recog.egg-info/dependency_links.txt
+src/language_recog.egg-info/top_level.txt
+src/reco_lang/__init__.py
+src/reco_lang/get_lang.py
+tests/tests.py

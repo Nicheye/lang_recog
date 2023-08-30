@@ -1,0 +1,38 @@
+Language detect 0.01
+
+Firstly you need to call function
+
+from language_detect.get_lang import get_lang
+
+Theny u have some text,for example:
+
+text1="Oggi è il primo settembre. Il cielo è sereno, siamo ancora in estate, ma fra poco comincia l’autunno. Le vie della città sono molto animate. Oggi cominciano gli studi nelle scuole, nelle università e negli istituti. Molti scolari e molti studenti tornano dal mare e dalla campagna. Tutti sono lieti di cominciare a studiare. Io e i miei compagni siamo studenti dell’istituto di lingue straniere.
+
+Oggi dopo gli esami d’estate andiamo alle lezioni per la prima volta. Prima delle lezioni, in giardino parliamo delle vacanze.
+
+L’anno scolastico è lungo. Il primo semestre dura quattro mesi ; alla fine del primo semestre, in gennaio, facciamo gli esami. Dopo gli esami d’inverno gli studenti riposano un po’ ; chi vuole, va in campagna a sciare о a pattinare. Alcuni restano in città e vanno a teatro, al cinema, visitano i musei.
+
+Il 7 febbraio gli studi incominciano di nuovo. Anche il secondo semestre dura quattro mesi. Nel secondo semestre bisogna lavorare sodo, perchè alla fine del semestre ci sono gli esami di promozione. La sessione estiva dura tutto il mese di giugno fino al 28. Dopo gli esami gli studenti vanno a lavorare nei cantieri"
+
+Then u call function:
+
+get_lang(text1)
+
+And function returns you "italian".
+
+I recomend u to mix it with googletrans(as I do).
+
+Testcase1:
+
+from translate import Translator
+from language_detect.src.reco_lang.get_lang import GetLang
+
+text ="ho comprato i gatti"
+get = GetLang()
+print(get.recog_lang(text))
+translator= Translator(to_lang="english",from_lang=get.recog_lang(text))
+translation = translator.translate(text)
+print (translation)
+
+
+Package was created by Michael Shpilevsky.
